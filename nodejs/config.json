@@ -1,0 +1,9 @@
+{
+    "_DEBUG_": true,
+    "sql": {
+        "user": "root",
+        "password": "",
+        "host": "localhost",
+        "database": "palace_essentials"
+    }
+}

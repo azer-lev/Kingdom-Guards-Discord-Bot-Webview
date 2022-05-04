@@ -1,0 +1,89 @@
+body, html {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #34495e;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.l-box {
+    padding: 1em;
+}
+
+.l-box-lrg {
+    padding: 2em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.is-center {
+    text-align: center;
+}
+
+
+
+.home-menu {
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 1px 3px 10px rgba(0,0,0, 0.25);
+}
+.home-menu {
+    background: #2d3e50;
+}
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    position: relative;
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.home-menu a {
+    color: #6FBEF3;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
+
+.pure-u-md-3-5 {
+    text-align: center;
+}
+
+.pure-table {
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
